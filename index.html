@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SehatKu - Klinik Kesehatan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="">SehatKu</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#menu">Layanan</a></li>
+                    <li><a href="#rekanan">Testimoni</a></li>
+                    <li><a href="#kontak">Hubungi Kami</a></li>
+                    <li><a href="#booking" class="order">Daftar Periksa</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <section id="home">
+            <div class="kolom">
+                <h2>Sehat Itu Mudah, Mulai Dari Sini</h2>
+                <p class="deskripsi">SehatKu adalah klinik kesehatan terpercaya di Mojokerto. Melayani pemeriksaan umum, kesehatan gigi, konsultasi gizi, dan apotek dengan dokter ramah dan harga terjangkau untuk pelajar.
+                <br><br>Jangan tunggu sakit. Yuk periksa kesehatanmu secara rutin dan jaga pola hidup sehat bersama SehatKu!
+                </p>
+                <p><a href="#booking" class="reservasi">Daftar Periksa</a></p>
+            </div>
+            <img src="foto-utma.jpg" class="gambar" alt="Foto Kesehatan">
+        </section>
+    </div>
+
+    <section id="menu">
+        <div class="wrapper">
+            <div class="tengah">
+                <h2>Layanan Kesehatan Kami</h2>
+                <p>Pelayanan cepat, ramah, dan terpercaya</p>
+                <div class="menu-list">
+                    <div class="kartu-menu">
+                        <img src="dokter-umum.jpg" alt="Dokter Umum">
+                        <h3>Pemeriksaan Umum</h3>
+                        <p>Periksa demam, batuk, flu, tekanan darah, dan konsultasi kesehatan bersama dokter umum.</p>
+                        <p class="harga">Rp 50.000 / Kunjungan</p>
+                        <a href="#booking" class="tbl-menu">Daftar</a>
+                    </div>
+                    <div class="kartu-menu">
+                        <img src="gigi.jpg" alt="Kesehatan Gigi">
+                        <h3>Kesehatan Gigi</h3>
+                        <p>Periksa gigi, scaling, tambal gigi, dan konsultasi kesehatan mulut bersama dokter gigi.</p>
+                        <p class="harga">Rp 75.000 / Kunjungan</p>
+                        <a href="#booking" class="tbl-menu">Daftar</a>
+                    </div>
+                    <div class="kartu-menu">
+                        <img src="gizi.jpg" alt="Konsultasi Gizi">
+                        <h3>Konsultasi Gizi</h3>
+                        <p>Konsultasi pola makan sehat, diet seimbang, dan program hidup sehat untuk remaja.</p>
+                        <p class="harga">Rp 40.000 / Kunjungan</p>
+                        <a href="#booking" class="tbl-menu">Daftar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking" id="booking">
+        <div class="container-booking">
+            <div class="booking-kiri">
+                <h2 class="judul-booking">Daftar Periksa Kesehatan</h2>
+                <form class="form-booking">
+                    <input type="text" placeholder="Nama Lengkap" required>
+                    <input type="text" placeholder="Nomor HP / WA" required>
+                    <select required>
+                        <option value="">Pilih Layanan</option>
+                        <option>Pemeriksaan Umum</option>
+                        <option>Kesehatan Gigi</option>
+                        <option>Konsultasi Gizi</option>
+                    </select>
+                    <input type="date" required>
+                    <input type="time" required>
+                    <button type="submit" class="btn-book">DAFTAR SEKARANG</button>
+                </form>
+            </div>
+            <div class="booking-kanan">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955!2d112.5!3d-7.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z!5e0!3m2!1sen!2sid!4v1" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+   
+    <section class="testimoni" id="rekanan"> 
+        <div class="wrapper">
+            <h2 class="judul-testimoni">Kata Mereka Tentang SehatKu</h2>
+            <div class="testimoni-grid">
+                <div class="testi-card">
+                    <p>"Waktu demam, langsung periksa di SehatKu. Dokternya ramah banget, obatnya juga langsung dikasih penjelasan."</p>
+                    <h4>Lutfia</h4><span>Siswi RPL - SMK Negeri 2 Mojokerto</span>
+                </div>
+                <div class="testi-card">
+                    <p>"Habis konsultasi gizi di sini, sekarang pola makanku jadi lebih teratur dan badan terasa lebih segar."</p>
+                    <h4>Mike Hamell</h4><span>Pasien Konsultasi Gizi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="kontak">
+        <div class="footer-wrapper">
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <p>Jl. Sehat No. 14, Mojokerto<br>WA 08111122234<br>sehatku@gmail.com</p>
+            </div>
+            <div class="footer-col tengah">
+                <h3>SehatKu</h3>
+                <p>Sehat - Cepat - Terpercaya</p>
+            </div>
+            <div class="footer-col">
+                <h3>Jam Buka</h3>
+                <p>Senin - Sabtu<br>08.00 - 20.00 WIB</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 All Rights Reserved By rpl_skaneda - Absen 14</p>
+        </div>
+    </footer>
+</body>
+</html>
